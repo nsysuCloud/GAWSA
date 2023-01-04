@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/oslabsean/Documents/workflowScheduling/GAWSA/GAWSA/GAWSA'
+g++ -c main.cpp
+g++ -c GA.cpp
+g++ -O3 main.o GA.o -o GAWSA.out
+make: Leaving directory '/home/oslabsean/Documents/workflowScheduling/GAWSA/GAWSA/GAWSA'
+ 
